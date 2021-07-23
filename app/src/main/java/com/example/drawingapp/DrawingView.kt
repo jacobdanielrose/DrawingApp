@@ -96,6 +96,5 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
     }
 
     internal inner class CustomPath(var color: Int,
-                                    var brushThickness: Float) : Path() {
-    }
+                                    var brushThickness: Float) : Path()
 }
